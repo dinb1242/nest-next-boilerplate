@@ -4,7 +4,7 @@
 #### 본 프로젝트는 Typescript를 기반으로 작성되었습니다.
 - 탑재 패키지:
     1) Nest.js
-    2) Nest.js
+    2) Net.js
     3) Tailwind CSS
     4) TypeORM
     5) MySQL
