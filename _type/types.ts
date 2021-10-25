@@ -1,0 +1,1 @@
+export const EXAMPLE_TYPE: string = "EXAMPLE_TYPE";

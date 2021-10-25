@@ -5,6 +5,7 @@
     "jsx": "preserve",
     "strict": true,
     "strictNullChecks": false,
+    "strictPropertyInitialization": false,
     "pretty": true,
     "noImplicitAny": true,
     "alwaysStrict": true,
@@ -37,9 +38,9 @@
     "./pages/**/*",
     "./src/**/*",
     "./ui/**/*",
-    "types.ts"
+    "types.ts",
+    "./node_modules/redux-persist/types"
   ],
   "exclude": [
-    "node_modules"
   ]
 }

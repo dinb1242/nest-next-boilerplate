@@ -1,10 +1,12 @@
-import { Controller, Get, Query, Render } from '@nestjs/common';
+import { Controller, Get, Query, Body, Render } from '@nestjs/common';
 
 @Controller()
 export class AppController {
-  // @Render('viewName')
+  @Render("example")
   @Get()
   public index() {
-    return;
+    return {
+      example: "This is an example data."
+    };
   }
 }

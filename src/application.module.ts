@@ -16,11 +16,11 @@ import { ExampleEntity } from './example/entities/example.entity';
     ),
     TypeOrmModule.forRoot({
       "type": "mysql",
-      "host": "example.com",
+      "host": "133.186.201.191",
       "port": 3306,
-      "username": "username",
-      "password": "password",
-      "database": "database",
+      "username": "dinb1242",
+      "password": "my1018213!",
+      "database": "jihyun",
       "entities": [ExampleEntity],
       "synchronize": true
     }),
