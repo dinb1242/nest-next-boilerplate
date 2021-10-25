@@ -1,7 +1,34 @@
-# NEST-NEXT AGGREGATED EXAMPLE
+# Nest.js와 Next.js Boilerplate
 
-This example demonstrates how to use nest-next to add server side rendering to [nest](https://github.com/nestjs/nest) with [next.js](https://github.com/zeit/next.js/).
+## Overview
+#### 본 프로젝트는 Typescript를 기반으로 작성되었습니다.
+- 탑재 패키지:
+    1) Nest.js
+    2) Nest.js
+    3) Tailwind CSS
+    4) TypeORM
+    5) MySQL
+    6) Class Validator
+    7) Redux (예정)
 
-All needed components are expected to be under one project, one repo, with this folder being the root of the repo.
+## Installation
+```
+# 필수 Dependencies 설치
+npm install
+```
 
-> You need to build the project first
+## Run
+```
+# 개발 서버 실행 --watch 사용
+npm run dev
+
+# 빌드
+npm run build
+
+# 배포 실행
+npm run start
+```
+
+## 유의사항
+#### 실행 전 반드시 `npm run build`로 프로젝트를 빌드한 후 사용하세요.
+#### yarn을 설치해야 Build가 될 수 있으므로 Yarn 패키지를 설치 후 사용하세요.
