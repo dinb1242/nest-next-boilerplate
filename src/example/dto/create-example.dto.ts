@@ -1,4 +1,5 @@
 import { IsNotEmpty } from "class-validator"
+import { ApiProperty } from "@nestjs/swagger";
 
 /**
  * Creator: 정지현
@@ -7,9 +8,11 @@ import { IsNotEmpty } from "class-validator"
  */
 export class CreateExampleDto {
     // 요청 데이터 Null 여부를 체크하는 Decorator
+    @ApiProperty({description: "예제 제목"})
     @IsNotEmpty()
     readonly title: string;
 
+    @ApiProperty({description: "예제 내용"})
     @IsNotEmpty()
     readonly content: string;
 }

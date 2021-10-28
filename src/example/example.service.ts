@@ -15,8 +15,7 @@ export class ExampleService {
 
   async create(createExampleDto: CreateExampleDto) {
     try {
-      const insertId = await this.exampleRepository.save(createExampleDto).then(res => res.id);
-      return `${insertId}번 인덱스로 데이터가 성공적으로 삽입됨.`;
+      return await this.exampleRepository.save(createExampleDto);
     } catch(err) {
       throw new HttpException("데이터 INSERT 실패", HttpStatus.BAD_REQUEST);
     }
