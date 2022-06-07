@@ -9,8 +9,7 @@
     4) TypeORM
     5) MySQL
     6) Class Validator
-    7) Redux (예정)
-
+    7) Redux
 ## Installation
 ```
 # 필수 Dependencies 설치
